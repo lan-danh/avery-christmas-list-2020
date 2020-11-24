@@ -39,7 +39,7 @@ a:hover {
 
 .santa-helper-small {
     border-radius: 100%;
-    width: 10%;
+    width: 15%;
 }
 
 .container-gifts {
@@ -155,6 +155,10 @@ a:hover {
 
     .purchase-button {
         margin-bottom: 75px;
+    }
+
+    .container-gifts {
+        margin-top: 7%;
     }
 
     .gift-page-image-box, .gift-page-description {
