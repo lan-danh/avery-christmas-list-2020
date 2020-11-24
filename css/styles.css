@@ -1,0 +1,153 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a:hover {
+    text-decoration: none;
+}
+.big-heading {
+    font-family: 'Mali', cursive;
+    color: hsl(349, 97%, 48%);
+    /* font-size: 6rem; */
+    font-size: 5.5rem;
+    font-weight: bold;
+}
+
+.container-title {
+    background-image: linear-gradient(#12cad6, #e4f9ff);
+    padding: 5% 12%;
+}
+
+.title-text {
+    text-align: left;
+    text-shadow: 5px 5px 10px white;
+}
+
+.title-image {
+    text-align: center;
+}
+
+.container-fluid {
+    padding: 5% 12%;
+}
+
+.santa-helper {
+    border-radius: 100%;
+    width: 65%;
+}
+
+.santa-helper-small {
+    border-radius: 100%;
+    width: 5%;
+}
+
+.container-gifts {
+    padding: 7% 12%;
+}
+
+.gift-box {
+    text-align: center;
+    padding-bottom: 75px;
+    transition: transform .3s;
+}
+
+.gift-box:hover {
+    transform: scale(1.25);
+}
+
+.gift-box-no-animation {
+    text-align: center;
+    padding-bottom: 75px;
+    opacity: 50%;
+}
+
+.gift-image {
+    width: 75%;
+    margin-bottom: 10px;
+}
+
+.gift-title {
+    font-size: 1.5rem;
+    font-weight: 900;
+    color:#394867;
+
+}
+
+.container-footer {
+    background-color: #12cad6;
+    padding: 1% 12%;
+    color: white;
+    text-align: center;
+}
+
+.footer-text {
+    font-size: 1.35rem;
+}
+
+.footer-text-pages {
+    font-size: 0.85rem;
+}
+
+.footer-by-text {
+    font-family: 'Dancing Script', cursive;
+}
+
+.copyright {
+    margin-bottom: 0;
+}
+
+.container-main {
+    padding: 5% 12%;
+}
+
+.header-pages {
+    background-image: linear-gradient(#12cad6, #e4f9ff);
+    padding: 1% 12%;
+    text-align: center;
+}
+
+.gift-page-title {
+    font-weight: bold;
+    color:#394867;
+}
+
+.gift-page-image {
+    width: 75%;
+}
+
+.gift-page-description {
+    margin-top: 6%;
+}
+
+.purchase-button {
+    margin-top: 15px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+@media (max-width: 991px) {
+    .container-title {
+        text-align: center;
+    }
+
+    .big-heading {
+        text-align: center;
+        font-size: 4.5rem;
+    }
+
+    .santa-helper {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .purchase-button {
+        margin-bottom: 75px;
+    }
+
+    .gift-page-image-box, .gift-page-description {
+    text-align: center;
+    }
+}
