@@ -128,6 +128,15 @@ a:hover {
     font-weight: bold;
 }
 
+.underline {
+    text-decoration: underline;
+}
+
+.turkey-note {
+    font-style: italic;
+    color: hsl(349, 97%, 48%);
+}
+
 
 @media (max-width: 991px) {
     .container-title {
