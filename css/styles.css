@@ -24,8 +24,10 @@ a:hover {
     text-shadow: 5px 5px 10px white;
 }
 
+
 .title-image {
     text-align: center;
+    margin: auto;
 }
 
 .container-fluid {
@@ -49,15 +51,15 @@ a:hover {
 .gift-box {
     text-align: center;
     padding-bottom: 75px;
-    transition: transform .3s;
+    /* transition: transform .3s; */
 }
 
-.gift-box:hover {
+/* .gift-box:hover {
     transform: scale(1.25);
-}
+} */
 
 .gift-image {
-    width: 75%;
+    width: 60%;
     margin-bottom: 10px;
 }
 
