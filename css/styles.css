@@ -63,11 +63,26 @@ a:hover {
     margin-bottom: 10px;
 }
 
+.gift-image-fade {
+    opacity: 50%;
+}
+
 .gift-title {
     font-size: 1.5rem;
     font-weight: 900;
     color:#394867;
+}
 
+.gift-title-fade {
+    font-size: 1.5rem;
+    font-weight: 900;
+    color:#dcdcdc;
+}
+
+.gift-title-fulfilled {
+    font-size: 1.25rem;
+    font-weight: lighter;
+    color:hsl(349, 97%, 48%);
 }
 
 /* Footer placement confguration: #page-container, #content-wrap, .container-footer */
